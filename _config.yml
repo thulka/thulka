@@ -1,1 +1,7 @@
-theme: jekyll-theme-minimal
+baseurl: ""
+
+collections:
+  eggs:
+    output: true
+
+

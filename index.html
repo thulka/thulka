@@ -1,0 +1,42 @@
+---
+title: huuuuuuuuuuuuuuuuuuuuuuuuuuuuuudiduuuuuuuu
+description: Track and optimize your sales team in real time
+---
+this is the index page!
+
+{{ page.title }}
+
+<h3>:{{ site.collections[0].label }}</h3>
+<h3>:{{ site.eggs.label }}</h3>
+
+{{ 99 }}
+
+<ul>
+    {% for e in site.collections.eggs %}
+    <li>
+        <div> ein ei!!</div>
+    </li>
+    {% endfor %}
+</ul>
+
+{% for c in site.collections %}
+    <div>44445</div>
+    <div>{{ c["label"] }}</div>
+{% endfor %}
+
+ho
+
+site.collections[0] :
+1{{ site.collections[0] }}
+
+site.collections[0].docs :
+2{{ site.collections[0].docs }}
+
+site.collections[0].docs[0].title_inside :
+3{{ site.collections[0].docs[0].name }}
+
+site.eggs :
+4{{ site.eggs }}
+
+site.eggs[0].name :
+5{{ site.eggs[0].name }}
