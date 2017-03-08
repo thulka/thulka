@@ -1,0 +1,3 @@
+- area1 greenygree
+- area2 red
+- area3
